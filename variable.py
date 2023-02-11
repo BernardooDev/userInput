@@ -1,9 +1,8 @@
 calculation_to_seconds = 24 * 60 * 60
+seconds = "segundos"
 
-def function_to_calculation():
-    print(f"24 dias são {24 * calculation_to_seconds} segundos")
-    print(f"40 dias são {40 * calculation_to_seconds} segundos")
-    print(f"50 dias são {50 * calculation_to_seconds} segundos")
-    print(f"110 dias são {100 * calculation_to_seconds} segundos")
+def function_to_calculation(number_of_days):
+    print(f"1 dia são {number_of_days * calculation_to_seconds} {seconds}")
+ 
 
-function_to_calculation()
+function_to_calculation(1)
